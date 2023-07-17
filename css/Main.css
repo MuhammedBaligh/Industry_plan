@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+body{
+    /* background-color: black; */
+    
+    color: goldenrod;
+}
+#mycarousel .carousel-inner{
+    color: gray;
+    font-weight: bold;
+}
+header nav{
+    color: white;
+    font-weight: bold;
+}
+.CN1 {
+   
+    /* color: yellow-800; */
+    width: 100%;
+}
+.layout{
+    width: 100%;
+    background-image: url(../imges/02.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    bottom: 64px;
+}
+.CN1 .Mainlogo{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    /* background-color: black; */
+}
+.layout .CN1 .Mainlogo .section1{
+    width: 100%;
+    position: relative;
+    top: 10px;
+}
+.section-2{
+    color: rgb(230, 227, 227);
+    font-weight: 900;
+    font-size: 64px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    margin: auto;
+    position: relative;
+    bottom: 30px;
+    
+}
+
+.section-21{
+    position: relative;
+    top: 19;
+}
+.section-2 .row2{
+    display: flex;
+}
+.section-2 .row2 .pic{
+    margin: auto;
+}
+.section-2 .row2 .pic .img-fluid{
+    padding: 20px 0px;
+}
+
+.section-5 iframe{
+    width: 50%;
+    height: 200px;
+}
+
+
+.section-5{
+    width: 100%;
+    margin: auto;
+    /* padding-bottom: 50px; */
+}
+.section-5 .row5{
+    width: 50%;
+}
+.section-5 .row5 h3{
+    color: white;
+    font-size: 36px;
+    font-family: "Prata", serif;
+    padding-bottom: 15px;
+}
+.section-5 .row5 p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    padding-bottom: 25px;
+}
+.Lpart{
+    background-color:  rgba(169, 169, 169, 0);
+    color: white;
+    width: 100%;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    top: 140px;
+}
+footer{
+    position: relative;
+    top: 120px;
+}
+.Lpart .item-1 .row .item{
+    border-left: 1px solid gray;
+}
+.Lpart .item-1 .row .item2{
+    border-right: 1px solid gray;
+}
+.services{
+    position: relative;
+    top:50px;
+}
+
+
+
