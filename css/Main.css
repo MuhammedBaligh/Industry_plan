@@ -1,123 +1,225 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family:'Times New Roman', Times, serif;
-    font-weight: bold;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
 }
-body{
-    /* background-color: black; */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background-color: rgba(10, 10, 10, 0);
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgba(10, 10, 10, 0.612);
+  border-radius: 20px;
+}
+i {
+  font-size: 30px;
+  cursor: pointer;
+  position: relative;
+  top: -11px;
+  transform: translate(-50%, -50%);
+}
+#myCarousel {
+  position: relative;
+  /* top: 30px; */
+}
+#mycarousel .carousel-inner {
+  color: gray;
+  font-weight: bold;
+}
+#myCarousel .carousel-inner .carousel-item .cover .carousel-caption {
+  font-weight: bold;
+}
+header nav {
+  color: white;
+  font-weight: bold;
+  box-shadow: 0px 6px 6px rgb(0 0 0 / 80%);
+}
+#section1 {
+  color: white;
+}
+p {
+  padding: 10px;
+  line-height: 1.6;
+}
+.services .row h3 {
+  font-size: x-large;
+  font-weight: bold;
+}
+.layout {
+  width: 100%;
+  background-image: url(../imges/02.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+  bottom: 65px;
+  height: 850px;
+}
+.Mainlogo {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 850px;
+  position: relative;
+  top: -17px;
+  height: 850px;
+}
+
+/* ########################################============================================================================== */
+@media (min-width: 350px) {
+  .layout{
+    height: 1850px;
     
-    color: goldenrod;
-}
-#mycarousel .carousel-inner{
-    color: gray;
-    font-weight: bold;
-}
-header nav{
-    color: white;
-    font-weight: bold;
-}
-.CN1 {
-   
-    /* color: yellow-800; */
-    width: 100%;
-}
-.layout{
-    width: 100%;
-    background-image: url(../imges/02.png);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+  }
+  .Mainlogo{
+    height: 1868px;
+  }
+  .sr1 .services .sr-item1,
+  .sr1 .services .sr-item2,
+  .sr1 .services .sr-item3,
+  .sr1 .services .sr-item4,
+  .sr1 .services .sr-item5 {
     position: relative;
-    bottom: 64px;
-}
-.CN1 .Mainlogo{
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
-    /* background-color: black; */
-}
-.layout .CN1 .Mainlogo .section1{
-    width: 100%;
-    position: relative;
-    top: 10px;
-}
-.section-2{
-    color: rgb(230, 227, 227);
-    font-weight: 900;
-    font-size: 64px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0);
+    top: 30px;
+  }
+  .hr {
+    width: 60%;
     margin: auto;
+  }
+  .services {
+    padding-bottom: 20px;
+  }
+  .services .sr-item {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+/* ========================================================= */
+@media (min-width: 370px) {
+  .layout{
+    height: 1800px;
+  }
+  .Mainlogo{
+    height: 1818px;
+  }
+  .services {
+    padding-bottom: 20px;
+  }
+  .services .sr-item {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+/* ==================================================== */
+@media (min-width: 390px) {
+  .sl-form .pop-content {
+    height: 600px;
+  }
+  .services {
+    padding-bottom: 20px;
+  }
+  .services .sr-item {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+/* ========================================================== */
+@media (min-width: 400px) {
+  .services {
+    padding-bottom: 20px;
+  }
+  .services .sr-item {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .layout{
+    height: 1750px;
+  }
+  .Mainlogo{
+    height: 1770px;
+  }
+}
+/* ====================================================== */
+@media (min-width: 536px) {
+  .services {
+    padding-bottom: 20px;
+  }
+  .services .sr-item {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+/* ======================================= */
+@media (min-width: 750px) {
+  .services {
+    padding-bottom: 20px;
+  }
+  .services .sr-item {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .layout{
+    height: 1150px;
+  }
+  .Mainlogo{
+    height: 1155px;
+  }
+}
+/* =================================================== */
+@media (min-width: 900px) {
+  .services {
+    padding-bottom: 20px;
+  }
+  .services .sr-item {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+/* ================================================ */
+@media (min-width: 1000px) {
+  header nav ul {
     position: relative;
-    bottom: 30px;
+    left: 0px;
+  }
+  .services {
+    padding-bottom: 20px;
+  }
+  .services .sr-item {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .layout{
+    height: 1050px;
+  }
+  .Mainlogo{
+    height: 1055px;
+  }
+}
+/* ==================================== */
+@media (min-width: 1300px) {
+  header nav ul {
+    position: relative;
+    left: 400px;
+  }
+  .layout{
+    height: 870px;
     
-}
-
-.section-21{
-    position: relative;
-    top: 19;
-}
-.section-2 .row2{
-    display: flex;
-}
-.section-2 .row2 .pic{
+  }
+  .Mainlogo{
+    height: 870px;
+  }
+  .hr {
+    width: 20%;
     margin: auto;
+  }
+  .services {
+    padding-bottom: 20px;
+  }
+  .services .sr-item {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
 }
-.section-2 .row2 .pic .img-fluid{
-    padding: 20px 0px;
-}
-
-.section-5 iframe{
-    width: 50%;
-    height: 200px;
-}
-
-
-.section-5{
-    width: 100%;
-    margin: auto;
-    /* padding-bottom: 50px; */
-}
-.section-5 .row5{
-    width: 50%;
-}
-.section-5 .row5 h3{
-    color: white;
-    font-size: 36px;
-    font-family: "Prata", serif;
-    padding-bottom: 15px;
-}
-.section-5 .row5 p{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 18px;
-    padding-bottom: 25px;
-}
-.Lpart{
-    background-color:  rgba(169, 169, 169, 0);
-    color: white;
-    width: 100%;
-    font-family:'Times New Roman', Times, serif;
-    font-weight: bold;
-    text-align: center;
-    position: relative;
-    top: 140px;
-}
-footer{
-    position: relative;
-    top: 120px;
-}
-.Lpart .item-1 .row .item{
-    border-left: 1px solid gray;
-}
-.Lpart .item-1 .row .item2{
-    border-right: 1px solid gray;
-}
-.services{
-    position: relative;
-    top:50px;
-}
-
-
 
